@@ -4,9 +4,9 @@
   "description": "Cache bridge to use modern Symfony cache systems in legacy Symfony1 projects",
   "license": "MIT",
   "require": {
-    "php": "^7.1",
+    "php": "^7.4 || ^8.1",
     "friendsofsymfony1/symfony1": "^1.4",
-    "symfony/cache": "^4.3 || ^5.0"
+    "symfony/cache": "^5.4 || ^6.0"
   },
   "require-dev": {
     "ext-apcu": "*"
